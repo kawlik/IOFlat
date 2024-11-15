@@ -15,11 +15,6 @@ packages/*/lib
 packages/font-glyphs/src/**/*.mjs
 packages/font-otl/src/**/*.mjs
 
-# Private config files
-private.toml
-private-build-plans.toml
-params/private-parameters.toml
-
 # pages-source ignores
 .next
 out
@@ -27,3 +22,6 @@ shared/fonts/imports/*/TTF/*
 
 # Platform specified files
 .DS_store
+
+# Autohint executables
+ttfautohint.*
